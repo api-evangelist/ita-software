@@ -1,8 +1,32 @@
 aid: ita-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ita-software.png
 name: ITA Software
-description: ITA Software is a company surfaced as a portfolio company of battery-ventures, general-catalyst
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  ITA Software is a travel technology company, now part of Google, that builds
+  airfare pricing, shopping, and availability software for airlines, online
+  travel agencies, and travel management companies. Founded in 1996 in Cambridge,
+  Massachusetts by MIT computer scientists (notably Jeremy Wertheimer) and backed
+  early by Battery Ventures, General Catalyst, and Sequoia Capital, the company
+  was acquired by Google in 2011. Its flagship QPX engine powers pricing,
+  revenue shopping, ticket rebooking, award-flight search, ancillary
+  merchandising, and flight schedule/seat availability for carriers including
+  Air Canada, American Airlines, Delta, United, and Virgin Atlantic, and its
+  technology underpins Google Flights. ITA Software also operates the consumer
+  ITA Matrix flight-search tool at matrix.itasoftware.com. The former public
+  QPX Express REST API was retired by Google in April 2018; today ITA Software's
+  QPX solutions are delivered as an enterprise engagement through Google account
+  teams, with no public self-service developer program, portal, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/ita-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,14 +35,38 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: google
+x-acquired-year: 2011
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Travel
+- Airlines
+- Airfare
+- Flight Search
+- Travel Technology
+- Pricing
+- Google
 apis: []
+common:
+- type: DomainSecurity
+  url: security/ita-software-domain-security.yml
+- type: Website
+  name: ITA Software by Google
+  url: https://www.itasoftware.com/
+- type: Tool
+  name: ITA Matrix Flight Search
+  url: https://matrix.itasoftware.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
