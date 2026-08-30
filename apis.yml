@@ -63,6 +63,11 @@ tags:
 - Google
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/google/
+  name: Google
+  x-relationship: acquired
+  x-evidence: "Founded in 1996 in Cambridge, Massachusetts by MIT computer scientists (notably Jeremy Wertheimer) and backed early by Battery Ventures, General Catalyst, and Sequoia Capital, the company was acquired by Google in 2011."
 - type: DomainSecurity
   url: security/ita-software-domain-security.yml
 - type: Website
